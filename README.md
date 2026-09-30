@@ -1,4 +1,4 @@
-``markdown
+``
 # Primeor Solutions Internship
 
 Welcome to my repository showcasing the projects completed during my internship at **Primeor Solutions**. This repository serves as a portfolio of my work, assignments, and practical implementations during the internship program.
