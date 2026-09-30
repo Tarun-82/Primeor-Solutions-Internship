@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarun Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <h2>Portfolio</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="home">
+      <h1>Hi, I'm Tarun Kumar</h1>
+      <p>BCA Student & Aspiring Java Developer</p>
+      <img
+        src="/hero.avif"
+        alt="profile"
+        onerror="this.style.display = 'none'"
+      />
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a BCA student passionate about web development and Java
+        programming.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">Java</div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="card">Calculator</div>
+      <div class="card">Todo App</div>
+      <div class="card">Cricket Game</div>
+    </section>
+
+    <section>
+      <h2>JavaScript Features</h2>
+
+      <p id="greeting"></p>
+
+      <button id="themeBtn">Change Color</button>
+
+      <div class="calculator">
+        <input type="number" id="num1" placeholder="Number 1" />
+        <input type="number" id="num2" placeholder="Number 2" />
+        <button onclick="addNumbers()">Calculate</button>
+        <p id="result"></p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Form</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="formMsg"></p>
+    </section>
+
+    <footer>
+      <p>© 2026 Tarun Kumar</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

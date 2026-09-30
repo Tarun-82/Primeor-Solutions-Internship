@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f4f4f4;
+    font-family:Arial, sans-serif;
+}
+
+.slider-img{
+    height:400px;
+    object-fit:cover;
+}
+
+.main-image{
+    height:500px;
+    width:100%;
+    object-fit:cover;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.thumb{
+    height:150px;
+    width:100%;
+    object-fit:cover;
+    cursor:pointer;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.thumb:hover{
+    transform:scale(1.05);
+}

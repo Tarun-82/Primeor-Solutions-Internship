@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechSolutions</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">TechSolutions</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Modern Web Solutions</h1>
+
+        <p class="lead">
+          Build Responsive & Professional Websites For Businesses
+        </p>
+
+        <button class="btn btn-primary btn-lg">Get Started</button>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="container py-5" id="services">
+      <h2 class="text-center mb-5">Our Services</h2>
+
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow service-card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Web Development</h5>
+
+              <p class="card-text">
+                Custom websites using modern technologies.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow service-card">
+            <div class="card-body text-center">
+              <h5 class="card-title">UI/UX Design</h5>
+
+              <p class="card-text">Clean and user-friendly interface design.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow service-card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Responsive Design</h5>
+
+              <p class="card-text">
+                Optimized for mobile, tablet and desktop devices.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow service-card">
+            <div class="card-body text-center">
+              <h5 class="card-title">SEO Optimization</h5>
+
+              <p class="card-text">
+                Improve visibility and search engine rankings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container py-5" id="contact">
+      <h2 class="text-center mb-4">Contact Us</h2>
+
+      <form class="contact-form">
+        <input
+          type="text"
+          class="form-control mb-3"
+          placeholder="Your Name"
+          required
+        />
+
+        <input
+          type="email"
+          class="form-control mb-3"
+          placeholder="Your Email"
+          required
+        />
+
+        <textarea
+          class="form-control mb-3"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+
+        <button class="btn btn-primary w-100">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-0">© 2026 TechSolutions | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
