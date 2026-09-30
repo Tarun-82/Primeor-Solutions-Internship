@@ -7,10 +7,10 @@ Welcome to my repository showcasing the projects completed during my internship 
 ## 📁 Repository Structure
 
 ```text
-├── Project_1_Portfolio/    # Project 1: Personal / Professional Portfolio
-├── Project_2/              # Project 2: [Add brief title/description here]
-├── Project_3/              # Project 3: [Add brief title/description here]
-├── Project_4/              # Project 4: [Add brief title/description here]
+├── Project_1_Portfolio/    # Project 1
+├── Project_2/              # Project 2
+├── Project_3/              # Project 3 
+├── Project_4/              # Project 4 
 └── hero.avif               # Asset used across projects / repository display
 
 ```
